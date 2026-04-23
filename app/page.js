@@ -1,11 +1,12 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 
 // ── Contact info – replace with real values before deploying ──────────────────
 // Stored as split parts to avoid plain-text exposure in HTML source.
-const EMAIL_PARTS  = ['post', 'ebfieldsupport.no']   // joins to: post@ebfieldsupport.no
-const PHONE_PARTS  = ['+47', '900', '00', '000']      // joins to: +47 900 00 000
+const EMAIL_PARTS  = ['espen', 'ebfs.no']   // joins to: post@ebfieldsupport.no
+const PHONE_PARTS  = ['+47', '90', '00', '000']      // joins to: +47 900 00 000
 // ─────────────────────────────────────────────────────────────────────────────
 
 const t = {
@@ -36,7 +37,7 @@ const t = {
     aboutHeading: 'Erfaring du kan stole på',
     aboutText: [
       'EB Field Support AS er ledet av Espen Bekkevold, med 40 års erfaring fra elektrobransjen.',
-      'De siste 25 årene har han jobbet spesialisert med lysstyringssystemer — fra store kontor- og konsernbygg til idrettsanlegg, kjøpesentre og privatboliger.',
+      'Han har de siste 25 årene jobbet spesialisert med lysstyringssystemer, med erfaring fra alt fra store kontor- og næringsbygg til skoler, idrettsanlegg, kjøpesentre og privatboliger.',
       'Med solid erfaring innen DALI og god kompetanse på trådløse løsninger, får du praktisk og pålitelig bistand når noe skal endres, vedlikeholdes eller feilsøkes. Ingen jobb er for liten.',
     ],
     contactLabel: 'Kontakt',
@@ -75,7 +76,7 @@ const t = {
     aboutHeading: 'Experience you can rely on',
     aboutText: [
       'EB Field Support AS is led by Espen Bekkevold, with 40 years of experience in the electrical industry.',
-      'For the past 25 years, he has worked as a specialist in lighting control systems — from large office and corporate buildings to sports facilities, shopping centres and private residences.',
+      'He has spent the past 25 years specializing in lighting control systems, with experience ranging from large office and commercial buildings to schools, sports facilities, shopping centers, and private homes.',
       'With solid expertise in DALI and strong knowledge of wireless solutions, you get practical and reliable assistance when something needs to be changed, maintained or troubleshot. No job is too small.',
     ],
     contactLabel: 'Contact',
@@ -133,8 +134,14 @@ export default function Home() {
       <header className="site-header">
         <div className="container">
           <a href="#" className="site-logo">
-            <span className="site-logo-main">EBFS</span>
-            <span className="site-logo-sub">Espen Bekkevold Field Support AS</span>
+            <Image
+              src="/LogoEBFS.png"
+              alt="EB Field Support AS"
+              className="site-logo-img"
+              width={320}
+              height={180}
+              priority
+            />
           </a>
           <button
             className="lang-toggle"
