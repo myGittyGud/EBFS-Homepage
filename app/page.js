@@ -5,8 +5,8 @@ import Image from 'next/image'
 
 // ── Contact info – replace with real values before deploying ──────────────────
 // Stored as split parts to avoid plain-text exposure in HTML source.
-const EMAIL_PARTS  = ['espen', 'ebfs.no']   // joins to: post@ebfieldsupport.no
-const PHONE_PARTS  = ['+47', '90', '00', '000']      // joins to: +47 900 00 000
+const EMAIL_PARTS  = ['eibekkevold', 'gmail.com']   // joins to: eibekkevold@gmail.com
+const PHONE_PARTS  = ['+47', '95', '01', '379']      // joins to: +47 95 01 379
 // ─────────────────────────────────────────────────────────────────────────────
 
 const t = {
