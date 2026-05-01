@@ -12,7 +12,7 @@ const PHONE_PARTS  = ['+47', '95', '01', '379']      // joins to: +47 95 01 379
 const t = {
   no: {
     langSwitch: '🇬🇧 EN',
-    eyebrow: 'Lysstyringssystemer',
+    //eyebrow: 'Lysstyringssystemer',
     heroTitle: 'Presis support for lysstyringssystemer',
     heroSub:
       'Med 40 års erfaring fra elektrobransjen og 25 år med lysstyringssystemer tilbyr EB Field Support AS endring, vedlikehold og feilsøking — til alle typer bygg og anlegg.',
@@ -135,11 +135,11 @@ export default function Home() {
         <div className="container">
           <a href="#" className="site-logo">
             <Image
-              src="/LogoEBFS.png"
+              src="/EBFSLogo21.png"
               alt="EB Field Support AS"
               className="site-logo-img"
-              width={320}
-              height={180}
+              width={245}
+              height={138}
               priority
             />
           </a>

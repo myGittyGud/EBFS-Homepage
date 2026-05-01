@@ -51,7 +51,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 200px;
+  height: 153px;
 }
 
 .site-logo {
@@ -61,7 +61,7 @@ body {
 }
 
 .site-logo-img {
-  height: 180px;
+  height: 138px;
   width: auto;
   display: block;
   object-fit: contain;
@@ -86,7 +86,7 @@ body {
 
 /* ── Hero ── */
 .hero {
-  padding: 7rem 0 6rem;
+  padding: 4rem 0 6rem;
   text-align: center;
 }
 
@@ -307,11 +307,11 @@ body {
 /* ── Responsive ── */
 @media (max-width: 720px) {
   .site-header .container {
-    height: 130px;
+    height: 91px;
   }
 
   .site-logo-img {
-    height: 110px;
+    height: 77px;
   }
 
   .services-grid {
