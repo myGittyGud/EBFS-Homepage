@@ -335,3 +335,6 @@ body {
     min-width: auto;
   }
 }
+.no-break {
+  white-space: nowrap;
+}

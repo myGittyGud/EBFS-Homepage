@@ -14,8 +14,13 @@ const t = {
     langSwitch: '🇬🇧 EN',
     //eyebrow: 'Lysstyringssystemer',
     heroTitle: 'Presis support for lysstyringssystemer',
-    heroSub:
-      'Med 40 års erfaring fra elektrobransjen og 25 år med lysstyringssystemer tilbyr EB Field Support AS endring, vedlikehold og feilsøking — til alle typer bygg og anlegg.',
+    heroSub: (
+  <>
+    Med 40 års erfaring fra elektrobransjen og 25 år med lysstyringssystemer tilbyr{' '}
+    <span className="no-break">EB Field Support AS</span>{' '}
+    endring, vedlikehold og feilsøking — til alle typer bygg og anlegg.
+  </>
+),
     heroCta: 'Ta kontakt',
     servicesLabel: 'Tjenester',
     servicesHeading: 'Hva vi gjør',
