@@ -6,7 +6,7 @@ import Image from 'next/image'
 // ── Contact info – replace with real values before deploying ──────────────────
 // Stored as split parts to avoid plain-text exposure in HTML source.
 const EMAIL_PARTS  = ['eibekkevold', 'gmail.com']   // joins to: eibekkevold@gmail.com
-const PHONE_PARTS  = ['+47', '95', '01', '379']      // joins to: +47 95 01 379
+const PHONE_PARTS  = ['+47', '951', '01', '379']      // joins to: +47 951 01 379
 // ─────────────────────────────────────────────────────────────────────────────
 
 const t = {
@@ -56,7 +56,7 @@ const t = {
   },
   en: {
     langSwitch: '🇳🇴 NO',
-    eyebrow: 'Lighting control systems',
+    //eyebrow: 'Lighting control systems',
     heroTitle: 'Precise support for lighting control systems',
     heroSub:
       'With 40 years of experience in the electrical industry and 25 years focused on lighting control, EB Field Support AS provides changes, maintenance and troubleshooting — for any type of building or facility.',
