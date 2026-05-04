@@ -52,7 +52,7 @@ const t = {
     showPhone: 'Vis telefonnummer',
     emailLabel: 'E-post',
     phoneLabel: 'Telefon',
-    footer: '© 2026 EB Field Support AS — Organisasjonsnummer: 000 000 000',
+    footer: '© 2026 EB Field Support AS — Organisasjonsnummer: 937 651 767',
   },
   en: {
     langSwitch: '🇳🇴 NO',
