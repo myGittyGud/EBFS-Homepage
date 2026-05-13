@@ -143,8 +143,8 @@ export default function Home() {
               src="/EBFSLogo21.png"
               alt="EB Field Support AS"
               className="site-logo-img"
-              width={245}
-              height={138}
+              width={1679}
+              height={421}
               priority
             />
           </a>
