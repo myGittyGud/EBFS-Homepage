@@ -13,7 +13,7 @@ const t = {
   no: {
     langSwitch: '🇬🇧 EN',
     //eyebrow: 'Lysstyringssystemer',
-    heroTitle: 'Presis support for lysstyringssystemer',
+    heroTitle: <>Presis support for lysstyring<wbr />systemer</>,
     heroSub: (
   <>
     Med 40 års erfaring fra elektrobransjen og 25 år med lysstyringssystemer tilbyr{' '}
